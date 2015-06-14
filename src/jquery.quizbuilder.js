@@ -1,8 +1,8 @@
 /**
- * jQuery Quiz Builder Plugin - v.0.1
+ * jQuery Quiz Builder Plugin - v.0.2
  *
- * Copyright 2012 Stas Suscov
- * http://coursewa.re
+ * Copyright 2015 Polh Vadim
+ * http://bevalex.by
  */
 ;(function ( $, window, undefined ) {
   var pluginName = 'quizBuilder',
@@ -260,7 +260,7 @@
 
             data['valid'] = true;
           } else {
-            data['valid'] = !!option.find( '.option-validation input' ).attr( 'checked' );
+            data['valid'] = !!option.find( '.option-validation input' ).is( ':checked' );
           }
 
           data['content'] = option.find( '.option-content textarea' ).val();
@@ -344,7 +344,8 @@
     $('[data-quiz="auto"]').each(function () {
       var $quiz = $(this);
       $quiz.quizBuilder($quiz.data());
-    })
+    });
+    
   })
 
 }(jQuery, window));

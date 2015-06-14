@@ -1,16 +1,16 @@
-# The Courseware Quiz Builder
+# Интерактивный создатель тестов
 
-The jQuery quiz builder I wrote for The Coursewa.re Project.
+Данные создатель теста был изменен для проекта УМК
 
 [![Build Status](https://travis-ci.org/Courseware/quiz-builder.png?branch=master)](https://travis-ci.org/Courseware/quiz-builder)
 
-## Installation
+## Установка
 
-Download the latest file from `src` directory.
+Скачайте файлы или клонируйте репозиторий и используйте файлы из папки src.
 
-## Usage
+## Использование
 
-For usage and examples check the `index.html` file.
+Для примера вам предоставлен index.html.
 
 ## Contributing
 
@@ -34,8 +34,9 @@ $ bundle exec rake
 
 ## Credits
 
-This library was extracted from the [http://coursewa.re](Coursewa.re) project.
+Данная библиотека были изобретена для [http://coursewa.re](Coursewa.re) проекта.
+И изменена мной для УМК.
 
-## License
+## Лецензия
 
 MIT.
